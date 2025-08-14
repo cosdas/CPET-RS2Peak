@@ -1,0 +1,146 @@
+age:
+  category: Measured Variables (56)
+  description: Age (years)
+  time: 0
+  type: numeric
+bblock:
+  category: Derived Variables (43)
+  description: 'Beta adrenoceptor antagonist: 0=no, 1=yes'
+  time: 0
+  type: categorical
+bmi:
+  category: Derived Variables (43)
+  description: Body mass index (kg/m2)
+  time: 0
+  type: numeric
+ci:
+  category: Derived Variables (43)
+  description: Chronotropic index, fC/VO2 slope (/L)
+  time: 2
+  type: numeric
+dm:
+  category: Clinical Variables (19)
+  description: 'Diabetes mellitus:  0=no, 1=yes'
+  time: 0
+  type: categorical
+ethnic:
+  category: Measured Variables (56)
+  description: 'Ethnicity: 0=Caucasian, 1=Mexican/Asian, 2=African'
+  time: 0
+  type: categorical
+fcr:
+  category: Measured Variables (56)
+  description: Resting heart rate ( /min)
+  time: 1
+  type: numeric
+fev1:
+  category: Measured Variables (56)
+  description: Forced expiratory volume (L)
+  time: 1
+  type: numeric
+fhcvd:
+  category: Clinical Variables (19)
+  description: 'Family history of cardiovascular disease:  0=no, 1=yes'
+  time: 0
+  type: categorical
+gender:
+  category: Measured Variables (56)
+  description: 'Gender: 0=male, 1=female'
+  time: 0
+  type: categorical
+hibp:
+  category: Measured Variables (56)
+  description: 'Exaggerated hypertensive response: 0=no, 1=yes'
+  time: -1
+  type: categorical
+htm:
+  category: Measured Variables (56)
+  description: Height (m)
+  time: 0
+  type: numeric
+htn:
+  category: Clinical Variables (19)
+  description: 'Systemic hypertension: 0=no, 1=yes'
+  time: 0
+  type: categorical
+id:
+  category: Clinical Variables (19)
+  description: Unique identifier
+  time: 0
+  type: text
+indic:
+  category: Clinical Variables (19)
+  description: 'Indication for testing: 1=exercise limitation, 2=dyspnea, 3=fatigue,
+    4=myalgia, 5=chest pain, 6=wheezing, 7=abnormal ECG, 8=palpitations, 9=other'
+  time: 0
+  type: categorical
+lipid:
+  category: Clinical Variables (19)
+  description: 'Dyslipidemia:  0=no, 1=yes'
+  time: 0
+  type: categorical
+majdysrh:
+  category: Measured Variables (56)
+  description: 'Major dysrhythmia: 0=no, 1=yes'
+  time: -1
+  type: categorical
+meth:
+  category: Derived Variables (43)
+  description: Metabolic threshold as % reference
+  time: 2
+  type: numeric
+mvv:
+  category: Measured Variables (56)
+  description: Maximum voluntary ventilation (L/min)
+  time: 1
+  type: numeric
+myocisch:
+  category: Measured Variables (56)
+  description: 'Myocardial ischemia: 0=no, 1=yes'
+  time: -1
+  type: categorical
+smoke:
+  category: Clinical Variables (19)
+  description: 'Smoking status: 0=never smoker, 1=ever smoker'
+  time: 0
+  type: categorical
+spo2r:
+  category: Measured Variables (56)
+  description: O2 saturation at rest (%)
+  time: 1
+  type: numeric
+vecap:
+  category: Derived Variables (43)
+  description: Ventilatory capacity (L/min)
+  time: 1
+  type: numeric
+veh2:
+  category: Measured Variables (56)
+  description: Minute ventilation at the ventilatory threshold (L/min)
+  time: 2
+  type: numeric
+veqco2h1:
+  category: Measured Variables (56)
+  description: Ventilatory equivalent for carbon dioxide at the metabolic threshold
+  time: 2
+  type: numeric
+vo2h1:
+  category: Measured Variables (56)
+  description: O2 uptake at metabolic threshold (L/min)
+  time: 2
+  type: numeric
+vo2h1kg:
+  category: Derived Variables (43)
+  description: O2 uptake at metabolic threshold (ml/kg/min)
+  time: 2
+  type: numeric
+vo2pkg:
+  category: Derived Variables (43)
+  description: Maximum O2 uptake (ml/kg/min)
+  time: 3
+  type: numeric
+vo2r:
+  category: Measured Variables (56)
+  description: Resting O2 uptake (L/min)
+  time: 1
+  type: numeric
